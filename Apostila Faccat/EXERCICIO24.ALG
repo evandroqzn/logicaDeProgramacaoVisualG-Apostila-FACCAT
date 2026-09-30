@@ -1,26 +1,26 @@
 Algoritmo "Exercicio24"
-// Disciplina : [LÛgica de ProgramaÁ„o]
+// Disciplina : [L√≥gica de Programa√ß√£o]
 // Professor  : Jailson Costa Dos Santos
 
-// DescriÁ„o  : Ler o sal·rio fixo e o valor das vendas efetuadas pelo
+// Descri√ß√£o  : Ler o sal√°rio fixo e o valor das vendas efetuadas pelo
 //              vendedor de uma empresa. Sabendo-se que ele recebe uma
-//              comiss„o de 3% sobre o total das vendas atÈ R$ 1.500,00
+//              comiss√£o de 3% sobre o total das vendas at√© R$ 1.500,00
 //              mais 5% sobre o que ultrapassar este valor, calcular e
-//              escrever o seu sal·rio total.
+//              escrever o seu sal√°rio total.
 
 //Autor(a)    :  Evandro Jesus Da Silva
 //Data atual  :  24/09/2026
 Var
 
-   //SeÁ„o de DeclaraÁıes das vari·veis
+   //Se√ß√£o de Declara√ß√µes das vari√°veis
 
    comissao, salariototal, salariofixo, valordasvendas:real
 
 Inicio
-   //SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   //Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("PROGRAMA CALCULO DE SALARIO COM COMISSAO")
    Escreval("")
-   Escreval("QUAL … O SALARIO DO FUNCIONARIO?")
+   Escreval("QUAL √â O SALARIO DO FUNCIONARIO?")
    leia(salariofixo)
    Escreval("")
    Escreval("QUAL O VALOR DAS VENDAS FEITAS PELO FUNCIONARIO?")
@@ -31,8 +31,8 @@ Inicio
    senao
    comissao <-(1500 * 0.03) + ((valordasvendas - 1500) * 0.05)
    fimse
-   salariotoal <- comissao + salariofixo
+   salariototal <- comissao + salariofixo
    Escreval("")
-   Escreval("VALOR DA COMISS√O: R$ ", comissao:1:2)
-   Escreval("SAL¡RIO TOTAL A RECEBER: R$ ", salariototal:1:2)
+   Escreval("VALOR DA COMISS√ÉO: R$ ", comissao:1:2)
+   Escreval("SAL√ÅRIO TOTAL A RECEBER: R$ ", salariototal:1:2)
 Fimalgoritmo
